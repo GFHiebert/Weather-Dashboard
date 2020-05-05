@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css"/>
+    <!-- apikey=8f68f7e6c4703101e1aaf920b20aa3ff
+    api.openweathermap.org/data/2.5/weather?id=524901&APPID=
+    api.openweathermap.org/data/2.5/forecast?id=524901&APPID= -->
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4" id = "left-col">
+                <h2>Search for a City:</h2>
+                <input type = "text" id = "city-input">
+                <button id = "search-btn"></button>
+
+                <div class = "city first-city">Austin</div> 
+                <div class = "city">Chicago</div> 
+                <div class = "city last-city">New Pork City</div> 
+            </div>
+            <div class="col-md-8">
+                <div class="row">
+                    City
+                </div>
+                <div class="row">
+                    Forecast
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="logic.js"></script>
+</body>
+
+</html>
