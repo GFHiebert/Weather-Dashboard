@@ -1,0 +1,126 @@
+#header {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 50px;
+    font-weight: 600;
+    background-color: #27282e;
+}
+
+.container {
+    width: 90%;
+    
+}
+
+#left-col {
+    background-color: whitesmoke;
+    padding-bottom: 40px;
+    min-height: 900px;
+}
+
+#city-input {
+    height: 60px;
+    width: 70%;
+    max-width: 350px;
+    position: relative;
+    bottom: 17px;
+    padding-left: 20px;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+#search-btn {
+    height: 60px;
+    width: 60px;
+    position: relative;
+    right: 5px;
+    background-color: #052e73;
+    border-style: solid;
+
+    border-radius: 10px;
+    border-color: #052e73;
+}
+
+.city {
+    width: 100%;
+    height: auto;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 0px 2px 2px 2px;
+    background-color: white;
+    padding-inline-start: 40px;
+    padding: 15px 20px 15px 20px;
+    font-size: 25px;
+    font-weight: 500;
+    
+    
+    
+}
+
+.first-city {
+    margin-top: 20px;
+    border-top-width: 2px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.last-city {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#right-col {
+    padding-left: 40px;
+}
+
+#today-info {
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 8px;
+    border-width: 2px;
+    padding: 30px 0px 50px 30px;
+}
+
+#city-date {
+    font-size: 42px;
+    font-weight: 500;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.info {
+    font-size: 25px;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+}
+
+#forecast-header {
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.future-day-forecast {
+    color: white;
+    background-color: #0841a1;
+    width: 200px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: #032052;
+    padding: 15px 0px 15px 10px;
+    font-size: 20px;
+    margin: 10px 40px 20px 0px;
+}
+
+.fd-date {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.fd-temperature {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
