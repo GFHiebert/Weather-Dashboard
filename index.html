@@ -21,51 +21,27 @@
                 <h2>Search for a City:</h2>
                 <input type = "text" id = "city-input">
                 <button id = "search-btn"></button>
+                <div id = "city-list">
 
-                <div class = "city first-city">Austin</div> 
-                <div class = "city">Chicago</div> 
-                <div class = "city last-city">New Pork City</div> 
+                </div>
+                
             </div>
             <div id = "right-col" class="col">
                 <div id = "today-info" class="row">
                     <div id = "city-date" >City/Date/Weather Image</div>
-                    <div id = "temperature" class = "info">Temperature: </div>
-                    <div id = "humidity" class = "info">Humidity: </div>
-                    <div id = "wind-speed" class = "info">Wind Speed: </div>
-                    <div id = "uv-index" class = "info">UV Index: </div>
+                    <div class = "info">Temperature: <span id = "temperature" ></span>&deg; F</div>
+                    <div class = "info">Humidity: <span id = "humidity" ></span>%</div>
+                    <div class = "info">Wind Speed: <span id = "wind-speed" ></span> mph</div>
+                    <div class = "info">UV Index: <span id = "uv-index" ></span></div>
                 </div>
                 <div id = "5-day-forecast" class="row">
-                    <div id = "forecast-header">5-Day Forecast:</div>
+                    <!-- <div id = "forecast-header">5-Day Forecast:</div>
                     <div class = "future-day-forecast">
                         <div class = "fd-date">00/00/0000</div>
                         <div class = "fd-image">:D</div>
                         <div class = "fd-temperature">Temp: </div>
                         <div class = "fd-humidity">Humidity: </div>
-                    </div>
-                    <div class = "future-day-forecast">
-                        <div class = "fd-date">00/00/0000</div>
-                        <div class = "fd-image">:D</div>
-                        <div class = "fd-temperature">Temp: </div>
-                        <div class = "fd-humidity">Humidity: </div>
-                    </div>
-                    <div class = "future-day-forecast">
-                        <div class = "fd-date">00/00/0000</div>
-                        <div class = "fd-image">:D</div>
-                        <div class = "fd-temperature">Temp: </div>
-                        <div class = "fd-humidity">Humidity: </div>
-                    </div>
-                    <div class = "future-day-forecast">
-                        <div class = "fd-date">00/00/0000</div>
-                        <div class = "fd-image">:D</div>
-                        <div class = "fd-temperature">Temp: </div>
-                        <div class = "fd-humidity">Humidity: </div>
-                    </div>
-                    <div class = "future-day-forecast">
-                        <div class = "fd-date">00/00/0000</div>
-                        <div class = "fd-image">:D</div>
-                        <div class = "fd-temperature">Temp: </div>
-                        <div class = "fd-humidity">Humidity: </div>
-                    </div>
+                    </div> -->
                 </div>
 
 
@@ -78,8 +54,8 @@
 
     </div>
 
-
-
+                                
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="javascript/logic.js"></script>
 </body>

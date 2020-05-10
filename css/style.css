@@ -41,7 +41,7 @@
     border-color: #052e73;
 }
 
-.city {
+.city-btn {
     width: 100%;
     height: auto;
     border-style: solid;
@@ -124,3 +124,31 @@
     margin-bottom: 20px;
 }
 
+#uv-index {
+    padding: 6px 10px  6px 10px;
+    border-radius: 7px;
+}
+
+.low {
+    background-color: green;
+    color: white;
+}
+
+.moderate {
+    background-color: yellow;
+    
+}
+
+.high {
+    background-color: orange;
+}
+
+.very-high {
+    background-color: red;
+    color: white;
+}
+
+.extreme {
+    background-color: violet;
+    color: white;
+}
